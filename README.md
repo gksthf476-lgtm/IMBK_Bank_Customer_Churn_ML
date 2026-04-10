@@ -38,7 +38,7 @@ df = df.drop(columns=['customer_id'], errors='ignore')
 country, gender는 범주형 변수이므로 pd.get_dummies()를 사용해 더미 변수로 변환했다.
 또한 drop_first=True를 적용하여 다중공선성 문제를 일부 완화했다.
 
-
+--
 df = pd.get_dummies(df, columns=['country', 'gender'], drop_first=True)
 
 ### 4) 스케일링
