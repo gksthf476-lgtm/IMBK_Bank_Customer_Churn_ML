@@ -109,7 +109,7 @@ XGBoost F1: 0.5946745562130178
 ### 4) Stacking Ensemble
 4개 모델을 조합해 Stacking Ensemble을 적용한 결과, 최종 성능은 다음과 같았다.
 
-Final Stacking F1 Score: 0.6080  
+-> Final Stacking F1 Score: 0.6080  
 
 즉, 단일 최고 모델(CatBoost)보다 Stacking이 소폭 더 나은 성능을 보였다.
 
