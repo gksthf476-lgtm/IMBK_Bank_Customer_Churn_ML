@@ -1,6 +1,8 @@
 # IMBK_Bank_Customer_Churn_ML
 
+
 ## 고객 이탈 분류 ML 및 인사이트 분석
+
 
 
 
@@ -8,11 +10,14 @@
 
 
 
+
 ## 1. Tech Stack: pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost, catboost, pycaret, optuna, shap 
 
 
 
+
 ## 2. Dataset: 캐글 Bank Customer Churn Dataset (row: 10000, col:12)
+
 
 
 
