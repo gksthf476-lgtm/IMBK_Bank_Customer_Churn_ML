@@ -10,7 +10,7 @@
 </p>
 ```
 
-Project Date: 2026-04-10
+## Project Date: 2026-04-10
 
 ---
 
@@ -55,10 +55,10 @@ X_valid = scaler.transform(X_valid)
 ### 1) 수치형 변수와 Churn의 관계
 <img width="1790" height="989" alt="EDA-수치형" src="https://github.com/user-attachments/assets/365ba884-f4e5-4392-9630-141fdf63afb2" />
 
-해석
-●credit_score
-두 분포가 거의 겹쳐 보여, 신용점수는 이탈 여부와 강한 관계를 보이지 않을 가능성이 있다.
-●age
+해석  
+●credit_score  
+두 분포가 거의 겹쳐 보여, 신용점수는 이탈 여부와 강한 관계를 보이지 않을 가능성이 있다.  
+●age  
 비이탈 고객은 주로 30대에, 이탈 고객은 40~50대에 상대적으로 많이 분포했다.
 따라서 나이가 많을수록 이탈 가능성이 높아질 가능성이 있다.
 ●tenure
