@@ -18,7 +18,7 @@ Project Date: 2026-04-10
 `customer_id`는 고객 식별용 변수로,  
 은행 이탈에 직접적인 설명력을 갖는 변수라고 보기 어렵고 고유값이 지나치게 많아 제거했다.
 
-```python
+
 df = df.drop(columns=['customer_id'], errors='ignore')
 
 ### 2) 결측치 확인
@@ -29,14 +29,14 @@ df = df.drop(columns=['customer_id'], errors='ignore')
 country, gender는 범주형 변수이므로 pd.get_dummies()를 사용해 더미 변수로 변환했다.
 또한 drop_first=True를 적용하여 다중공선성 문제를 일부 완화했다.
 
-```python
+
 df = pd.get_dummies(df, columns=['country', 'gender'], drop_first=True)
 
 ### 4) 스케일링
 모델 학습 시 변수 간 값의 범위를 맞추기 위해 StandardScaler를 사용했다.
 평균 0, 표준편차 1로 표준화하여 학습 안정성과 비교 가능성을 높였다.
 
-```python
+
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_valid = scaler.transform(X_valid)
